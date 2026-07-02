@@ -1,1 +1,53 @@
 
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5fff7;
+}
+
+header{
+    background:#0B6B3A;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#ffffff;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#0B6B3A;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#e8f5e9;
+}
+
+button{
+    background:#0B6B3A;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+footer{
+    background:#0B6B3A;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
