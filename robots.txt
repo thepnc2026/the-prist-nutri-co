@@ -1,0 +1,24 @@
+# The Prist Nutri Co. - robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Crawl delay (milliseconds)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://thepnc2026.github.io/the-prist-nutri-co/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
