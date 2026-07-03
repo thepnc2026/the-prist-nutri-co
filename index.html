@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Prist Nutri Co.</title>
+
+<title>The Prist Nutri Co. | Premium Natural Foods</title>
+
+<meta name="description" content="Premium Chips, Masala & Healthy Powders">
 
 <link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -13,20 +27,42 @@
 <header class="navbar">
 
 <div class="logo">
-<img src="assets/images/logo.png" alt="The Prist Nutri Co.">
+
+<img src="assets/images/logo.png" alt="The Prist Nutri Co">
+
 </div>
 
 <nav>
+
 <a href="#">Home</a>
+
 <a href="#products">Products</a>
+
 <a href="#combo">Combo</a>
+
 <a href="#about">About</a>
+
 <a href="#contact">Contact</a>
+
 </nav>
 
-<a href="https://wa.me/917440091000" class="whatsapp-btn">
+<div class="nav-right">
+
+<a href="#" class="search-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</a>
+
+<a href="#" class="cart-btn">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cart-count">0</span>
+</a>
+
+<a href="https://wa.me/917440091000"
+class="order-btn">
 Order Now
 </a>
+
+</div>
 
 </header>
 
@@ -34,72 +70,206 @@ Order Now
 
 <div class="hero-left">
 
-<h1>Pure Ingredients.<br>Perfect Taste.</h1>
+<span class="tag">
+🌿 100% Natural & Premium
+</span>
+
+<h1>
+
+Healthy Taste,
+<br>
+
+Naturally Better.
+
+</h1>
 
 <p>
+
 Premium Chips, Masala & Healthy Powders
-Made with Quality & Freshness.
+made with carefully selected ingredients.
+
 </p>
 
-<a href="#products" class="shop-btn">
+<div class="hero-buttons">
+
+<a href="#products"
+class="shop-btn">
+
 Shop Now
+
+</a>
+
+<a href="https://wa.me/917440091000"
+class="whatsapp-btn">
+
+WhatsApp Order
+
 </a>
 
 </div>
 
+<div class="trust">
+
+<div>
+
+<h3>100%</h3>
+
+<p>Natural</p>
+
+</div>
+
+<div>
+
+<h3>Fast</h3>
+
+<p>Delivery</p>
+
+</div>
+
+<div>
+
+<h3>Fresh</h3>
+
+<p>Products</p>
+
+</div>
+
+</div>
+
+</div>
+
 <div class="hero-right">
+
 <img src="assets/images/banner.jpg" alt="Banner">
+
+</div>
+
+</section>
+<!-- Categories -->
+
+<section class="categories">
+
+<div class="container">
+
+<h2>Shop By Category</h2>
+
+<div class="category-grid">
+
+<div class="category-card">
+<img src="assets/images/chips.png" alt="">
+<h3>Chips</h3>
+<p>Fresh & Crispy</p>
+</div>
+
+<div class="category-card">
+<img src="assets/images/masala.png" alt="">
+<h3>Masala</h3>
+<p>Authentic Taste</p>
+</div>
+
+<div class="category-card">
+<img src="assets/images/powder.png" alt="">
+<h3>Healthy Powders</h3>
+<p>100% Natural</p>
+</div>
+
+<div class="category-card">
+<img src="assets/images/combo.png" alt="">
+<h3>Combo Packs</h3>
+<p>Save More</p>
+</div>
+
+</div>
+
 </div>
 
 </section>
 
+<!-- Featured Products -->
+
 <section class="products" id="products">
 
-<h2>Our Products</h2>
+<div class="container">
+
+<h2>Best Selling Products</h2>
 
 <div class="product-grid">
 
+<!-- Product 1 -->
+
 <div class="product-card">
 
-<img src="assets/images/banana-chips.jpg" alt="Banana Chips">
+<img src="assets/images/banana-chips.jpg">
 
 <h3>Banana Chips</h3>
 
-<p>Fresh & Crispy Banana Chips</p>
+<p>Fresh & Crunchy</p>
 
-<select>
-<option>100g - ₹60</option>
-<option>250g - ₹140</option>
-<option>500g - ₹260</option>
-<option>1kg - ₹500</option>
+<select class="weight">
+
+<option value="60">100g</option>
+
+<option value="140">250g</option>
+
+<option value="260">500g</option>
+
+<option value="500">1 Kg</option>
+
 </select>
 
-<div class="price">₹60</div>
+<h4 class="price">₹60</h4>
 
-<button class="add-cart">Add to Cart</button>
+<div class="product-buttons">
+
+<button class="cart-btn">
+Add To Cart
+</button>
+
+<button class="buy-btn">
+Buy Now
+</button>
 
 </div>
+
+</div>
+
+<!-- Product 2 -->
 
 <div class="product-card">
 
-<img src="assets/images/red-chilli.jpg" alt="Red Chilli Powder">
+<img src="assets/images/red-chilli.jpg">
 
 <h3>Red Chilli Powder</h3>
 
-<p>Premium Quality Masala</p>
+<p>Premium Quality</p>
 
-<select>
-<option>100g - ₹50</option>
-<option>250g - ₹120</option>
-<option>500g - ₹220</option>
-<option>1kg - ₹420</option>
+<select class="weight">
+
+<option value="50">100g</option>
+
+<option value="120">250g</option>
+
+<option value="220">500g</option>
+
+<option value="420">1 Kg</option>
+
 </select>
 
-<div class="price">₹50</div>
+<h4 class="price">₹50</h4>
 
-<button class="add-cart">Add to Cart</button>
+<div class="product-buttons">
+
+<button class="cart-btn">
+Add To Cart
+</button>
+
+<button class="buy-btn">
+Buy Now
+</button>
 
 </div>
+
+  <!-- Product 3 -->
 
 <div class="product-card">
 
@@ -107,18 +277,59 @@ Shop Now
 
 <h3>Turmeric Powder</h3>
 
-<p>100% Pure Haldi Powder</p>
+<p>100% Pure & Natural</p>
 
-<select>
-<option>100g - ₹40</option>
-<option>250g - ₹90</option>
-<option>500g - ₹170</option>
-<option>1kg - ₹320</option>
+<select class="weight">
+
+<option value="40">100g</option>
+<option value="90">250g</option>
+<option value="170">500g</option>
+<option value="320">1 Kg</option>
+
 </select>
 
-<div class="price">₹40</div>
+<h4 class="price">₹40</h4>
 
-<button class="add-cart">Add to Cart</button>
+<div class="product-buttons">
+
+<button class="cart-btn">Add To Cart</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
+
+<!-- Product 4 -->
+
+<div class="product-card">
+
+<img src="assets/images/black-pepper.jpg" alt="Black Pepper">
+
+<h3>Black Pepper</h3>
+
+<p>Premium Whole Pepper</p>
+
+<select class="weight">
+
+<option value="90">100g</option>
+<option value="220">250g</option>
+<option value="430">500g</option>
+<option value="840">1 Kg</option>
+
+</select>
+
+<h4 class="price">₹90</h4>
+
+<div class="product-buttons">
+
+<button class="cart-btn">Add To Cart</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
 
 </div>
 
@@ -126,51 +337,126 @@ Shop Now
 
 </section>
 
-<section id="combo" class="products">
+<!-- Why Choose Us -->
+
+<section class="why-us" id="about">
+
+<div class="container">
+
+<h2>Why Choose The Prist Nutri Co.?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🌿 100% Natural</h3>
+<p>No artificial colours or preservatives.</p>
+</div>
+
+<div class="feature">
+<h3>🏆 Premium Quality</h3>
+<p>Carefully selected ingredients.</p>
+</div>
+
+<div class="feature">
+<h3>🚚 Fast Delivery</h3>
+<p>Quick dispatch across India.</p>
+</div>
+
+<div class="feature">
+<h3>💚 Trusted Brand</h3>
+<p>Fresh products with hygienic packaging.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+</div>
+  <!-- Combo Section -->
+
+<section class="combo" id="combo">
+
+<div class="container">
 
 <h2>Build Your Own Combo</h2>
 
-<p style="text-align:center;">
-Select your favourite Chips & Masala and get special discounts.
-(Coming Soon 🚀)
-</p>
+<p>Create your favourite combo and save more.</p>
+
+<div class="combo-box">
+
+<button class="combo-btn">
+Create Combo
+</button>
+
+</div>
+
+</div>
 
 </section>
 
-<section id="about" class="products">
+<!-- Customer Reviews -->
 
-<h2>About Us</h2>
+<section class="reviews">
 
-<p style="text-align:center;max-width:800px;margin:auto;">
-The Prist Nutri Co. delivers premium quality Chips,
-Masala and Healthy Powders prepared with hygiene,
-freshness and trusted ingredients.
-</p>
+<div class="container">
 
-</section>
+<h2>What Our Customers Say</h2>
 
-<section id="contact" class="products">
+<div class="review-grid">
 
-<h2>Contact Us</h2>
+<div class="review-card">
 
-<p style="text-align:center;">
-📞 +91 7440091000
-</p>
-
-<p style="text-align:center;">
-WhatsApp Orders Available
-</p>
-
-</section>
-
-<footer>
+⭐⭐⭐⭐⭐
 
 <p>
-© 2026 The Prist Nutri Co.
-All Rights Reserved.
+
+Very fresh products and excellent quality.
+
 </p>
 
-</footer>
+<h4>- Rahul Sharma</h4>
 
-</body>
-</html>
+</div>
+
+<div class="review-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+Best banana chips I have ever tasted.
+
+</p>
+
+<h4>- Priya Singh</h4>
+
+</div>
+
+<div class="review-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+Packaging and delivery both were excellent.
+
+</p>
+
+<h4>- Aman Verma</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<h2>Contact Us</
